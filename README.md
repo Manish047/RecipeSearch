@@ -12,7 +12,7 @@ API Integration<br/>
 Custom Pagination<br/>
 Responsive UI
 
-## Try it yourself
+## Try It Yourself
 
 https://recipe-search-0047.netlify.app/
 
@@ -33,7 +33,7 @@ You need to add your own:<br/>
 2) APP_ID in App.js
 3) APP_KEY in App.js
 
-## A few Screen Shots...
+## A Few Screen Shots...
 
 ### Initial Look
 
