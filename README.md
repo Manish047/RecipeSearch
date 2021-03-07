@@ -12,6 +12,10 @@ API Integration<br/>
 Custom Pagination<br/>
 Responsive UI
 
+## Try it yourself
+
+https://recipe-search-0047.netlify.app/
+
 ## Must Read
 
 The API response claims to have result count(No. of recipes) for each search value to be a very large number while actually the documents are not more than 100.<br/>
@@ -28,23 +32,6 @@ You need to add your own:<br/>
 1) FontAwesome CDN in index.html
 2) APP_ID in App.js
 3) APP_KEY in App.js
-
-## To run this app..
-
-### Run 'cd your-app-root-directory'
-
-Navigate to the root folder where you copied the code.
-
-### Run 'npm install'
-
-Installs all the dependencies.
-
-### Run 'npm start'
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-
 
 ## A few Screen Shots...
 
@@ -65,3 +52,18 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 <div align="center">
     <img src="./screenshots/Pagination.png" width="800px" />
 </div>
+
+## To run this app..
+
+### Run 'cd your-app-root-directory'
+
+Navigate to the root folder where you copied the code.
+
+### Run 'npm install'
+
+Installs all the dependencies.
+
+### Run 'npm start'
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
