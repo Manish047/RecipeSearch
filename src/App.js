@@ -5,8 +5,8 @@ import Search from './components/Search/Search';
 import Paginator from './components/Paginator/Paginator';
 import Loader from './components/Loader/Loader';
 
-const APP_ID = '1d5adf85';
-const APP_KEY = '78f5647d52f684d4be9ff81405cc14fa';
+const APP_ID = 'YOUR_APP_ID';
+const APP_KEY = 'YOUR_APP_KEY';
 const ITEMS_PER_PAGE = 12;
 
 class App extends Component {
