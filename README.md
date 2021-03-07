@@ -21,7 +21,13 @@ Detailed Explaination:<br/>
 ItemsPerPage = 12<br/>
 Page = 9<br/>
 Therefore 12 * 9  = 108 i.e. > 100<br/>
-Thus the 9th page might only be showing values 96 - 100<br/>
+Thus the 9th page might only be showing values 96 - 100 and nothing after that.<br/>
+
+Also,<br/>
+You need to add your own:<br/>
+1) FontAwesome CDN in index.html
+2) APP_ID in App.js
+3) APP_KEY in App.js
 
 ## To run this app..
 
