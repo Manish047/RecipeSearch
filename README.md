@@ -8,20 +8,20 @@ https://developer.edamam.com/edamam-docs-recipe-api
 
 ## Content Covered
 
-API Integration
-Custom Pagination
+API Integration<br/>
+Custom Pagination<br/>
 Responsive UI
 
 ## Must Read
 
-The API response claims to have result count(No. of recipes) for each search value to be a very large number while actually the documents are not more than 100.
-That is the reason why you might not see anything after page number 9.
+The API response claims to have result count(No. of recipes) for each search value to be a very large number while actually the documents are not more than 100.<br/>
+That is the reason why you might not see anything after page number 9.<br/>
 
-Detailed Explaination: 
-ItemsPerPage = 12
-Page = 9
-Therefore 12 * 9  = 108 i.e. > 100
-Thus the 9th page might only be showing values 96 - 100 
+Detailed Explaination:<br/>
+ItemsPerPage = 12<br/>
+Page = 9<br/>
+Therefore 12 * 9  = 108 i.e. > 100<br/>
+Thus the 9th page might only be showing values 96 - 100<br/>
 
 ## To run this app..
 
@@ -45,17 +45,17 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 ### Initial Look
 
 <div align="center">
-    <img src="./screenshots/1.png" width="400px" />
+    <img src="./screenshots/Initial.png" width="800px" />
 </div>
 
 ### Searched Results
 
 <div align="center">
-    <img src="./screenshots/2.png" width="400px" />
+    <img src="./screenshots/SearchResults.png" width="800px" />
 </div>
 
 ### Pagination
 
 <div align="center">
-    <img src="./screenshots/3.png" width="400px" />
+    <img src="./screenshots/Pagination.png" width="800px" />
 </div>
