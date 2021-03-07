@@ -12,10 +12,6 @@ API Integration<br/>
 Custom Pagination<br/>
 Responsive UI
 
-## Try It Yourself
-
-https://recipe-search-0047.netlify.app/
-
 ## Must Read
 
 The API response claims to have result count(No. of recipes) for each search value to be a very large number while actually the documents are not more than 100.<br/>
