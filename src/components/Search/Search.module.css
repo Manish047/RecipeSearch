@@ -1,0 +1,41 @@
+.Search {
+    width: 100%;
+    margin: 32px 0;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px white;
+    overflow: hidden;
+}
+
+.Search input, .Search button {
+    font-size: 1.2rem;
+    background-color: transparent;
+    padding: 1rem;
+    outline: none;
+    border: none;
+}
+
+.Search input {
+    width: 100%;
+}
+
+.Search input::placeholder {
+    color: #ccc;
+}
+
+.Search input:focus, .Search input:active, .Search input:valid {
+    background-color: white;
+}
+
+.Search button {
+    cursor: pointer;
+    color: white;
+}
+
+.Search button:disabled {
+    cursor: not-allowed;
+}

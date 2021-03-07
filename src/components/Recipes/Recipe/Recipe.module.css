@@ -1,0 +1,44 @@
+.Recipe {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 16px;
+    padding: 16px;
+    border-radius: 16px;
+    box-shadow: 0px 0px 5px #eee;
+    width: 90%;
+    max-width: 400px;
+}
+
+.Head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Title {
+    margin: 16px;
+    font-size: 1.6rem;
+    font-weight: normal;
+    text-align: center;
+}
+
+.TimeTaken {
+    font-size: 1.2rem;
+    font-weight: normal;
+    text-align: center;
+}
+
+.RecipeImage {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.Ingredients {
+    margin: 32px;
+    font-size: 1.2rem;
+}
